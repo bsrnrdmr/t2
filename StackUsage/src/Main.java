@@ -20,18 +20,19 @@ public class Main {
 		// TODO Auto-generated method stub
 		Stack<String> words = new Stack<String>();
 		
-		Queue<String> qe=new LinkedList<String>();
+		Queue<String> queue=new LinkedList<String>();
 
-        qe.add("b");
-        qe.add("a");
-        qe.add("c");
+        queue.add("b");
+        queue.add("a");
+        queue.add("c");
+        queue.add("d");
         
 		words.push("ali");
 		words.push("veli");
 		words.push("deli");
 		
 		
-		System.out.println(qe);
+		System.out.println(queue);
 		System.out.println(words);
 	}
 

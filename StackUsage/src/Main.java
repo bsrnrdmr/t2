@@ -26,10 +26,12 @@ public class Main {
         queue.add("a");
         queue.add("c");
         queue.add("d");
+        queue.add("e");
         
 		words.push("ali");
 		words.push("veli");
 		words.push("deli");
+		words.push("neli");
 		
 		
 		System.out.println(queue);

@@ -1,5 +1,7 @@
 package whatIsReference;
 
+import java.awt.Point;
+
 public class RefMain {
 
 	public static void main(String [] args){
@@ -8,7 +10,7 @@ public class RefMain {
 		Car ford2 = ford;
 		ford.setColor("white");
 		Car dumbCar = new Car();
-		
+		Car Porshe = new Car("Porshe Cayenne","White");
 		Point p = new Point();
 		
 		System.out.println(dumbCar);
@@ -16,6 +18,7 @@ public class RefMain {
 		System.out.println(ford.toString());
 		System.out.println(chevrolet.toString());
 		System.out.println(ford2.toString());
+		System.out.println(Porshe);
 		
 	
 	if(ford.equals(p)){

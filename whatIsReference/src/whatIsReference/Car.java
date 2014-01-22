@@ -18,11 +18,14 @@ public class Car {
 	public String getModel(){
 		return model;
 	}
-	public void setModel(String model){
-		this.model = model;
+	public int getHorsePower(){
+		return horsePower;
 	}
 	public String getColor(){
 		return color;
+	}
+	public void setModel(String model){
+		this.model = model;
 	}
 	public void setColor(String color){
 		this.color = color;
@@ -46,10 +49,6 @@ public class Car {
 	}
 		return false;
 	}
-		
-	public int getHorsePower(){
-		return horsePower;
-	}
-	
+			
 		
 }

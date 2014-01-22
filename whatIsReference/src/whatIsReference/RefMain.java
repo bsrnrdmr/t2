@@ -11,6 +11,7 @@ public class RefMain {
 		ford.setColor("white");
 		Car dumbCar = new Car();
 		Car Porshe = new Car("Porshe Cayenne","White");
+		Car mercedes = new Car("Mercedes C-series","White");
 		Point p = new Point();
 		
 		System.out.println(dumbCar);
@@ -19,6 +20,7 @@ public class RefMain {
 		System.out.println(chevrolet.toString());
 		System.out.println(ford2.toString());
 		System.out.println(Porshe);
+		System.out.println(mercedes);
 		
 	
 	if(ford.equals(p)){
